@@ -1,0 +1,205 @@
+body {
+    /*background-image: url("./images/lune.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: black;
+}
+.entete {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: #454545;
+}
+.logo {
+    background-image: url(./images/lune.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: 30%;
+}
+.titre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    color: rgb(212, 174, 77);
+}
+.libtitre {
+    width: 100%;
+}
+.libtitre h1 {
+    font-size: 50px;
+}
+.bandeau {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background-color: #454545;
+}
+.menu {
+    /*text-align: right;*/
+}
+.burger {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    height: auto;
+    font-size: 50px;
+    color: rgb(212, 174, 77);
+    padding-right: 10px;
+}
+.burger i:hover {
+    cursor: pointer;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+.arbre {
+    width: 20%;
+    background-image: url("./images/arbre1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.actu {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+}
+.sliders {
+    width: 80%;
+    height: auto;
+}
+.slider1 {
+    margin: 5px;
+    height: 250px;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+}
+.slider2 {
+    margin: 5px;
+    height: 150px;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+}
+.news {
+    width: 20%;
+    margin: 5px;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+}
+.articles {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    width: 100%;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    height: auto;
+    justify-content: space-evenly;
+    color: white;
+}
+.article1 {
+    margin: 5px;
+    height: 150px;
+    width: 30%;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.article2 {
+    margin: 5px;
+    height: 150px;
+    width: 30%;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.article3 {
+    margin: 5px;
+    height: 150px;
+    width: 30%;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /*position: absolute;*/
+    /*bottom: 5px;*/
+    width: 100%;
+    /*margin-top: 10px;*/
+}
+.listeAction {
+    padding: 0;
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+}
+.listeAction li {
+    margin-left: 2px;
+    float: left;;
+}
+.listeAction li a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.footerSocial {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.copyright {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    color:rgb(212, 174, 77);
+}
