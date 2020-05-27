@@ -12,9 +12,12 @@ body {
     justify-content: center;
     color: white;
     background-color: #454545;
+    background-image: url(./images/FondSpace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo {
-    background-image: url(./images/lune.jpg);
+    background-image: url(./images/LogoTest.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: auto;
@@ -43,7 +46,7 @@ body {
     justify-content: space-evenly;
     width: 100%;
     height: auto;
-    background-color: #454545;
+    /*background-color: #454545;*/
 }
 .menu {
     /*text-align: right;*/
@@ -112,21 +115,91 @@ main {
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
 }
-.articles {
+.infos {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;
+    flex-wrap: wrap;
     width: 100%;
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
+}
+.zninfos {
+    width: 80%;
+}
+.arbre2 {
+    width: 20%;
+    background-image: url("./images/arbre2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
     height: auto;
     justify-content: space-evenly;
     color: white;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+}
+.titreArticles {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: -180px;
+}
+.article {
+    margin: 5px 0 5px 0;
+    height: 150px;
+    width: 31%;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
 }
 .article1 {
-    margin: 5px;
+    text-align: center;
+}
+.article2 {
+
+}
+.article3 {
+}
+.blogs {
+    display: flex;
+    flex-direction: column;
+    /*margin-left: 5px;*/
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    color: white;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+}
+.titreBlogs {
+    text-align: center;
+}
+.blog {
+    margin-left: 10px;
+    margin-bottom: 5px;
     height: 150px;
-    width: 30%;
+    width: 98%;
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
     padding: 3px;
@@ -137,31 +210,13 @@ main {
     align-items: flex-start;
     text-align: center;
 }
-.article2 {
-    margin: 5px;
-    height: 150px;
-    width: 30%;
-    border: solid 1px rgb(212, 174, 77);
-    border-radius: 10px;
-    padding: 3px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+.blog1 {
+    text-align: center;
 }
-.article3 {
-    margin: 5px;
-    height: 150px;
-    width: 30%;
-    border: solid 1px rgb(212, 174, 77);
-    border-radius: 10px;
-    padding: 3px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+.blog2 {
+
+}
+.blog3 {
 }
 footer {
     display: flex;
