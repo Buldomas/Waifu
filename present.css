@@ -233,12 +233,13 @@ main {
     width: 100%;
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
+    justify-content: center;
 }
 .zninfos {
-    width: 80%;
+    width: calc(80% - 2px);
 }
 .arbre2 {
-    width: 20%;
+    width: calc(20% - 2px);
     background-image: url("./images/arbre2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,6 +284,7 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     text-align: center;
+    overflow-y: scroll;
 }
 .article1 {
     text-align: center;
@@ -308,10 +310,11 @@ main {
     text-align: center;
 }
 .blog {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 5px;
     height: 150px;
-    width: 98%;
+    width: calc(100% - 10px);
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
     padding: 3px;
@@ -330,7 +333,9 @@ main {
 }
 .blog2 {
     height: auto;
-
+}
+.blog video {
+    width:40%;
 }
 .blog3 {
     height: auto;
@@ -384,6 +389,12 @@ footer {
 .footerSocial button:hover {
     transform: scale(1.1);
     color: rgb(212, 174, 77) !important;
+}
+.footerSocial a {    
+    color: rgb(212, 174, 77);
+}
+.footerSocial a:hover {
+    transform: scale(1.2);
 }
 .copyright {
     text-align: center;
