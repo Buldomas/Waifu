@@ -94,12 +94,13 @@ main {
 .actu {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 80%;
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
 }
 .sliders {
-    width: 70%;
+    width: 68%;
     height: auto;
 }
 .slider1 {
@@ -182,7 +183,8 @@ main {
 }
 .news {
     width: 30%;
-    margin: 5px;
+    margin-top: 5px;
+    padding: 2px;
     border: solid 1px rgb(212, 174, 77);
     border-radius: 10px;
     text-align: center;
@@ -190,6 +192,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+.news ul {
+    margin: 0 5px 0 2px;
+    padding: 0;
 }
 .news ul li {
     text-decoration: none;
