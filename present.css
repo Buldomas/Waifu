@@ -1,31 +1,35 @@
 body {
-    /*background-image: url("./images/lune.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;*/
     background-color: black;
     background-image: url("/images/FondSpace2.png");
     background-size: auto;
     background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 1920px;
+    margin: auto;
 }
 .entete {
-    height: 200px;
+    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: white;
-    /*background-color: #454545;*/
-    /*background-image: url(./images/FondSpace.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;*/
 }
 .logo {
-    background-image: url(./images/LogoTest.png);
+    /*background-image: url(./images/LogoTest.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: auto;
-    width: 30%;
+    background-size: contain;*/
+    /*height: auto;*/
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.logo img {
+    cursor: pointer;  
+    width: 100%;
 }
 .titre {
     display: flex;
@@ -33,7 +37,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 60%;
     height: auto;
     text-align: center;
     color: rgb(212, 174, 77);
@@ -47,7 +51,7 @@ body {
 .bandeau {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: stretch;
     width: 100%;
     height: auto;
     /*background-color: #454545;*/
@@ -59,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 30%;
+    width: 20%;
     height: auto;
     font-size: 50px;
     color: rgb(212, 174, 77);
@@ -74,7 +78,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     /*background-color: black;*/
     /*background-image: url("/images/FondSpace.jpg");*/
 }
@@ -102,6 +106,23 @@ main {
 .sliders {
     width: 68%;
     height: auto;
+}
+.Presentation {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    border: solid 1px rgb(212, 174, 77);
+    border-radius: 10px;
+    color: white
+}
+.Presentation h3 {
+    color: rgb(212, 174, 77);
+}
+.Presentation h3 span {
+    font-style: italic;
+}
+.Presentation p {
+    text-align: justify;
 }
 .slider1 {
     margin: 5px;
@@ -182,7 +203,7 @@ main {
    100%  {left: -300%;}
 }
 .news {
-    width: 30%;
+    width: 31.5%;
     margin-top: 5px;
     padding: 2px;
     border: solid 1px rgb(212, 174, 77);
@@ -200,10 +221,12 @@ main {
 .news ul li {
     text-decoration: none;
     line-height: 1.5em;
-    padding-top: 10px;
+    padding-top: 5px;
+    list-style-type: none;
 
 }
 .infos {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -265,9 +288,10 @@ main {
     text-align: center;
 }
 .article2 {
-
+    text-align: center;
 }
 .article3 {
+    text-align: center;
 }
 .blogs {
     display: flex;
@@ -302,10 +326,6 @@ main {
     width: 100%;
 }
 .blog1 {
-    /*text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;*/
     height: auto;
 }
 .blog2 {
@@ -315,15 +335,28 @@ main {
 .blog3 {
     height: auto;
 }
+.btmenu {
+    color: rgb(212, 174, 77);
+    background-color: #0d192f !important;
+}
+.btmenu a {
+    color: white;
+}
+.btmenu a:hover {
+    color:rgb(212, 174, 77) !important;
+}
+.btmenu:hover {
+    background-color: #2c407d !important;
+}
+#menu1 button:hover {
+    transform: scale(1.1);
+}
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    /*position: absolute;*/
-    /*bottom: 5px;*/
     width: 100%;
-    /*margin-top: 10px;*/
 }
 .listeAction {
     padding: 0;
@@ -347,6 +380,10 @@ footer {
     width: 100%;
     text-align: center;
     height: auto;
+}
+.footerSocial button:hover {
+    transform: scale(1.1);
+    color: rgb(212, 174, 77) !important;
 }
 .copyright {
     text-align: center;
